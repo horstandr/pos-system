@@ -1,0 +1,27 @@
+.itemview {
+    background-color: var(--dark-background);
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 60vh;
+    overflow-y: scroll;
+    align-content: flex-start;
+    border-radius: 20px !important;
+}
+
+.item {
+    background-color: var(--medium-background);
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    transition: all 0.3s ease;
+}
+
+.item:hover {
+    background-color: var(--light-background);
+}
+
+.item * {
+    margin:0;
+    text-align: center;
+}

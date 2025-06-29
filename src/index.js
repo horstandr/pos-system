@@ -11,6 +11,8 @@ import Home from './pages/Home';
 import Admin from './pages/Admin';
 import Login from './pages/Login';
 
+import NavBar from './components/NavBar';
+
 // Style
 import './styles/RootStyle.css';
 
@@ -18,6 +20,7 @@ import './styles/RootStyle.css';
 const root = document.getElementById('root');
 ReactDOM.createRoot(root).render(
     <BrowserRouter>
+      <NavBar/>
       <Routes>
         <Route index element={<Home />} />
         <Route path="/" element={<Home />} />

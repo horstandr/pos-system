@@ -1,8 +1,8 @@
 const Info = {
-    restaurantName: 'Fish man',
+    restaurantName: 'De Jasmijn',
     tables: [
         {
-            name: 'Table 1',
+            name: 'Tafel 1',
             index: 0,
             orders: [
                 {
@@ -65,7 +65,20 @@ const Info = {
                 }
             ],
             totalPrice: 50
-        }
+        },
+        {
+            name: 'Table 6',
+            index: 5,
+            orders: [
+                {
+                    id: "023",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+                }
+            ],
+            totalPrice: 50
+        },
     ],
     paymentTypes: ['Cash', 'Visa', 'MasterCard'],
     globalOrders: [

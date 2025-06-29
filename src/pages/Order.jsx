@@ -1,6 +1,13 @@
+import ItemView from "../components/ItemView";
+import Info from "../data/Info";
+import StoreItems from '../data/StoreItems';
+
 function Order() {
     return (
-        <h1>Order</h1>
+        <div className="order">
+            <h1>Order</h1>
+            <ItemView items={StoreItems} />
+        </div>
     );
 }
 

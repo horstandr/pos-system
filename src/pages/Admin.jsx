@@ -1,7 +1,7 @@
+import { Link } from "react-router";
+
 import Info from "../data/Info";
-
 import NumberPresent from "../components/NumberPresent";
-
 import '../styles/Admin.css';
 
 function Admin() {
