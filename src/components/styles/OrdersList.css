@@ -6,6 +6,7 @@
     background-color: var(--medium-background);
     height: 25vh;
     overflow-y: scroll;
+    box-shadow: inset 0px -20px 20px -20px var(--light-background);
 }
 
 ::-webkit-scrollbar {

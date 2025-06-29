@@ -1,16 +1,20 @@
-.gobackbutton {
+.button {
     background-color: var(--medium-background);
-    padding: 0px;
     border-radius: 10px;
+    padding: 0px;
     width: fit-content;
-    color: black;
-    position: absolute;
-    border: 1px solid black;
-    z-index: 2;
+    height: fit-content;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.gobackbutton:hover {
+.button:hover {
     background-color: var(--light-background);
+}
+
+.button > p {
+    margin: 0;
+    padding: 0;
+    color: var(--link-accent-color);
+    text-decoration: underline;
 }

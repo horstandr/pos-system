@@ -16,11 +16,10 @@
 
 .link {
     background: var(--medium-background);
-    margin-right: 10px;
+    padding: 10px;
     transition: all 0.3s ease;
 }
 
 .link:hover {
     background: var(--light-background);
-
 }
