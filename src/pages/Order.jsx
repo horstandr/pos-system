@@ -5,7 +5,7 @@ import StoreItems from '../data/StoreItems';
 function Order() {
     return (
         <div className="order">
-            <h1>Order</h1>
+            <h1>Order {Info.globalOrders.length + 1}</h1>
             <ItemView items={StoreItems} />
         </div>
     );

@@ -87,6 +87,36 @@ const Info = {
             madeAt: Date(1),
             items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}], 
             totalPrice: 50
+        },
+        {
+                    id: "036",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+        },
+        {
+                    id: "092",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+        },
+        {
+                    id: "047",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+        },
+        {
+                    id: "090",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+        },
+        {
+                    id: "023",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
         }
     ],
     totalProfit: 158392,
