@@ -12,13 +12,13 @@ function Tables() {
       <div className="table-container">
           {Info.tables.map(
             (
-              { name, items, totalPrice }, index
+              { name, orders, totalPrice }, index
             ) => {
               return (
                 <>
                   <div className='table' id={ 'table' + index } onClick={() => navigate("/tables/" + index)}>
                     <h3>{name}</h3>
-                    <OrdersList items={items} />
+                    <OrdersList orders={orders} />
                     <h4>Total: €{totalPrice}</h4>
                   </div>
                 </>

@@ -1,0 +1,11 @@
+.gobackbutton {
+    background-color: var(--medium-background);
+    padding: 0px;
+    border-radius: 10px;
+    width: fit-content;
+    color: black;
+    position: absolute;
+    border: 1px solid black;
+    z-index: 2;
+    cursor: pointer;
+}
