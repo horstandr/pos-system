@@ -14,7 +14,6 @@ import Login from './pages/Login';
 // Style
 import './styles/RootStyle.css';
 
-
 // Router
 const root = document.getElementById('root');
 ReactDOM.createRoot(root).render(

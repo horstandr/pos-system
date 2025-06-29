@@ -7,7 +7,7 @@ import '../styles/Admin.css';
 function Admin() {
 return (
 <div className="admin-panel">
-    <h1>Admin panel</h1>
+    <h1>{Info.restaurantName}: Admin Panel</h1>
     <div className="profits">
         <NumberPresent amount={Info.dailyProfit} description="Today's profit" />
         <NumberPresent amount={Info.totalProfit} description="All time profit" />

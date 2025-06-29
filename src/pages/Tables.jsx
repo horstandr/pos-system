@@ -1,8 +1,10 @@
 import '../styles/Tables.css';
 import Info from '../data/Info';
+
 import OrdersList from '../components/OrdersList';
 
 import { useNavigate } from 'react-router';
+
 
 function Tables() {
   let navigate = useNavigate();
