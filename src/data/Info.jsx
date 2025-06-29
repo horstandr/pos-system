@@ -1,5 +1,5 @@
 const Info = {
-    restaurantName: 'De Jasmijn',
+    restaurantName: 'XXXXXXXx',
     tables: [
         {
             name: 'Tafel 1',
