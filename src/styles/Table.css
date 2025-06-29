@@ -1,0 +1,8 @@
+.table-page {
+    background: var(--dark-background);
+    border: 1px solid black;
+}
+
+.table-page * {
+    margin-bottom: 5px;
+}

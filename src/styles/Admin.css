@@ -1,0 +1,8 @@
+.profits, .tables {
+    display: flex;
+    gap: 10px;
+}
+
+.tables {
+    flex-wrap: wrap;
+}

@@ -2,39 +2,122 @@ const Info = {
     restaurantName: 'XXXXXXXx',
     tables: [
         {
-            name: 'Table 1',
+            name: 'Tafel 1',
             index: 0,
-            items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
-            totalPrice: 50 //* pricePS means price Per Serving.
+            orders: [
+                {
+                    id: "001",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+                }
+            ],
+            totalPrice: 50
         },
         {
             name: 'Table 2',
             index: 1,
-            items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+            orders: [
+                {
+                    id: "092",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+                }
+            ],
             totalPrice: 50
         },
         {
             name: 'Table 3',
             index: 2,
-            items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+            orders: [
+                {
+                    id: "036",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+                }
+            ],
             totalPrice: 50
         },
         {
             name: 'Table 4',
             index: 3,
-            items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+            orders: [
+                {
+                    id: "047",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+                }
+            ],
             totalPrice: 50
         },
         {
             name: 'Table 5',
             index: 4,
-            items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+            orders: [
+                {
+                    id: "090",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+                }
+            ],
             totalPrice: 50
-        }
+        },
+        {
+            name: 'Table 6',
+            index: 5,
+            orders: [
+                {
+                    id: "023",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+                }
+            ],
+            totalPrice: 50
+        },
     ],
     paymentTypes: ['Cash', 'Visa', 'MasterCard'],
     globalOrders: [
-        {items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}], totalPrice: 50}
+        {
+            id: "284",
+            madeAt: Date(1),
+            items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}], 
+            totalPrice: 50
+        },
+        {
+                    id: "036",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+        },
+        {
+                    id: "092",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+        },
+        {
+                    id: "047",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+        },
+        {
+                    id: "090",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+        },
+        {
+                    id: "023",
+                    madeAt: Date(20402405),
+                    items: [{name: 'Spinach', quantity: 1, pricePS: 10}, {name: 'Burger', quantity: 2, pricePS: 20}],
+                    totalPrice: 50 //* pricePS means price Per Serving.
+        }
     ],
     totalProfit: 158392,
     dailyProfit: 50

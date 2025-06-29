@@ -1,3 +1,25 @@
 .orderslist * {
     margin: 0;
 }
+
+.orderslist {
+    background-color: var(--medium-background);
+    height: 25vh;
+    overflow-y: scroll;
+    box-shadow: inset 0px -20px 20px -20px var(--light-background);
+}
+
+::-webkit-scrollbar {
+    background-color: var(--medium-background);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--light-background);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--lightest-background);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--light-background);
+}
