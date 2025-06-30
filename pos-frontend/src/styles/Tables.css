@@ -1,0 +1,17 @@
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.table-container * {
+    margin: 0;
+}
+
+.table {
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: var(--dark-background);
+    padding: 10px;
+}
